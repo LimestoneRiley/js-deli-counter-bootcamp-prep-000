@@ -20,6 +20,7 @@ function currentLine (currentLine){
   } 
   
   var CurrentLineString = "The line is currently: ";
+  var i;
   
   for (i=0; i<currentLine.length; i++){
     CurrentLineString = CurrentLineString + i + "." + currentLine[i];
