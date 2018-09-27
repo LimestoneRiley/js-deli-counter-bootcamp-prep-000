@@ -5,7 +5,7 @@ function takeANumber (PeopleCount, FName){
 }
 
 function nowServing (katzDeliLine){
-  If (FPerson);
+  if (FPerson == T);
    return (FPerson);
-   elseif return ("There is nobody waiting to be served!")
+  elseif return ("There is nobody waiting to be served!")
 }
