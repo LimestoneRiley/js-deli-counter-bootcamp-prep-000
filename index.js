@@ -17,6 +17,6 @@ function currentLine (CurrentLine){
   var CurrentLineString;
   var i = 0;
   
-  while ()
+  while (i<CurrentLine.length)
   return (CurrentLineString);
 }
