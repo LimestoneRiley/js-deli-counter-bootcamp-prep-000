@@ -7,7 +7,7 @@ function takeANumber (PeopleCount, FName){
 function nowServing (katzDeliLine){
   if (katzDeliLine.length > 1){
    BeingServed = katzDeliLine[0];
-   katzDeliLine.unshift;
+   katzDeliLine.shift;
    return (BeingServed);
   }
   return ("There is nobody waiting to be served!");
