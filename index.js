@@ -17,7 +17,7 @@ function currentLine (currentLine){
   var CurrentLineString = "The line is currently: ";
   
   for (i=0; i<currentLine.length; i++){
-    CurrentLineString = i + "." currentLine[i];
+    CurrentLineString = "CurrentLineString + i + "." + currentLine[i]";
   }
   return (CurrentLineString);
 }
