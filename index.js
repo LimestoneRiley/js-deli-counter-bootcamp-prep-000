@@ -23,7 +23,7 @@ function currentLine (currentLine){
   var i;
   
   for (i=0; i<currentLine.length; i++){
-    CurrentLineString = CurrentLineString + i + ". " + currentLine[i];
+    CurrentLineString = CurrentLineString + (i+1) + ". " + currentLine[i];
     if ((i+1) < currentLine.length){
       CurrentLineString = CurrentLineString + ", ";
     }
