@@ -6,7 +6,7 @@ function takeANumber (PeopleCount, FName){
 
 function nowServing (katzDeliLine){
   if (katzDeliLine.length > 1){
-   BeingServed = katzDeliLine[0];
+   var BeingServed = katzDeliLine[0];
    katzDeliLine.shift;
    return (BeingServed + " being served now. ");
   }
