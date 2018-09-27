@@ -14,10 +14,18 @@ function nowServing (katzDeliLine){
 }
 
 function currentLine (currentLine){
+  
+  if (currentLine.length === 0){
+   return "The line os currently empty.";
+  } 
+  
   var CurrentLineString = "The line is currently: ";
   
   for (i=0; i<currentLine.length; i++){
-    CurrentLineString = "CurrentLineString + i + "." + currentLine[i]";
+    CurrentLineString = CurrentLineString + i + "." + currentLine[i];
+    if (i < currentLine.length){
+      CurrentLineString = CurrentLineString + ", ";
+    }
   }
   return (CurrentLineString);
 }
