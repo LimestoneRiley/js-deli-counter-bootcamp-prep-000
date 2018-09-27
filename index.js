@@ -13,10 +13,12 @@ function nowServing (katzDeliLine){
   return ("There is nobody waiting to be served!");
 }
 
-function currentLine (CurrentLine){
-  var CurrentLineString;
+function currentLine (currentLine){
+  var CurrentLineString = "The line is currently: ";
   var i = 0;
   
-  while (i<CurrentLine.length)
+  for (i<currentLine.length){
+    CurrentLineString = i + "." currentLine[i]
+  }
   return (CurrentLineString);
 }
